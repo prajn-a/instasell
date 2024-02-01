@@ -134,8 +134,8 @@ const Functionality = () => {
             <h3 className="py-2">HTML Link</h3>
             <textarea
               placeholder="Value"
-              rows="6"
-              cols="40"
+              rows={6}
+              cols={40}
               className="outline-none border border-gray-400 rounded-lg"
             >
               {" "}
