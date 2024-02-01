@@ -1,4 +1,3 @@
-import React from "react";
 import Search from "../../ui/search";
 import { ChevronDown, User, Settings } from "lucide-react";
 
