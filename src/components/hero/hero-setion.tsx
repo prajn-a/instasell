@@ -11,19 +11,18 @@ const cards = [
     button1Style: "bg-[#414141] text-white",
   },
   {
-    heading: "Order sync successful!",
+    heading: "Customize Customer Notification",
     icon: <MessageCircleWarning size={15} strokeWidth={2.5} />,
     content:
-      "Your order details from the last 30 days have been successfully synced. Check them out now!",
+      "Tailor Your Email Experience: Set the Sender Email and Choose Notification Triggers",
     button1: "Configure Notifications",
     customClass: "bg-[#fef9db]",
     button1Style: "bg-[#414141] text-white",
   },
   {
-    heading: "Order sync successful!",
+    heading: "Your Tracking Link has been generated",
     icon: <AlertCircle size={15} strokeWidth={2.5} />,
-    content:
-      "Your order details from the last 30 days have been successfully synced. Check them out now!",
+    content: "Include the Link to Your Store's Navigation Menu.",
     button1: "Copy Link",
     button2: "Go To Navigation Menu",
     customClass: "bg-[#eaf5fe]",
@@ -34,7 +33,7 @@ const cards = [
 
 const HeroSection = () => {
   return (
-    <div className="bg-[#f7f6f4] py-10 px-20">
+    <div className="bg-[#f7f6f4] py-10 px-20 2xl:px-64">
       <h2 className="text-2xl font-semibold py-8 text-gray-700">
         Welcome, John Mathew!!
       </h2>
