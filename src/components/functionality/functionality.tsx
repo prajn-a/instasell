@@ -1,11 +1,11 @@
 import Button from "../../ui/button";
 
 const items = [
-  "../../../src/assets/items/one.svg",
-  "../../../src/assets/items/two.svg",
-  "../../../src/assets/items/three.svg",
-  "../../../src/assets/items/four.svg",
-  "../../../src/assets/items/five.svg",
+  "../../../public/items/one.svg",
+  "../../../public/items/two.svg",
+  "../../../public/items/three.svg",
+  "../../../public/items/four.svg",
+  "../../../public/items/five.svg",
 ];
 
 const colors = [
